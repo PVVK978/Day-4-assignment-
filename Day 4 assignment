@@ -1,0 +1,12 @@
+altitude = int(input("enter the value of altitude:"))
+if altitude < 1000:
+   print("it's safe land the plane")
+eleif altitude > 1000 and altitude < 5000:
+   print("bring down the plane to 1000")
+else:
+   print("turn around and try again")
+
+enter the value of altitude:900
+it's safe land the plane 
+
+
